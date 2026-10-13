@@ -143,6 +143,25 @@ class AdminStatsView(APIView):
             .values('id', 'username', 'email', 'first_name', 'last_name', 'date_joined', 'last_login', 'is_active')
         )
 
+        # Foydalanuvchilar o'qish jarayoni va kitoblari
+        user_progress = list(
+            ReadingProgress.objects
+            .select_related('book')
+            .order_by('-updated_at')
+            .values(
+                'id',
+                'user_id',
+                'book__id',
+                'book__title',
+                'book__author',
+                'book__cover_image',
+                'chapter',
+                'chapter_index',
+                'progress_percent',
+                'updated_at'
+            )
+        )
+
         return Response({
             'total_books': total_books,
             'total_reviews': total_reviews,
@@ -154,6 +173,7 @@ class AdminStatsView(APIView):
             'top_books': top_books,
             'recent_reviews': recent_reviews,
             'recent_users': recent_users,
+            'user_progress': user_progress,
         })
 
 from django.contrib.auth import authenticate
