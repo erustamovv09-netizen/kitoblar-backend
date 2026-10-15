@@ -1,0 +1,389 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-06-18T00:42:28.897Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Badiiy asarlar",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-06-18T01:06:43.816Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Binafsha shu'lasi (1-qism)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$chg3JITAZ3SuX579t9T3di$JzdQ9EbujkF9Yt1n7FCQHphi3Q3NiMuMDpWmJuqKIGA=",
+    "last_login": "2026-10-09T20:15:54.606Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-06-17T23:37:36.880Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$5mGPh4MX0h0z2tTqtfFht7$QV1TMidW/2qNDPBp94cs13i83bmepWf0DUdEGpc2Hig=",
+    "last_login": "2026-10-13T09:14:06.661Z",
+    "is_superuser": false,
+    "username": "rustamov",
+    "first_name": "Rustamov",
+    "last_name": "",
+    "email": "e.rustamovv.09@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-09T21:25:52.446Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "d1obdjh7txrsih5h35oh9pd2fwdz9li8",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCYAhlcuvcMBGZAqgaS0q6Md9cmXej2v_f-S4S4rTVsIy9hZnEWWpx-txTpkdsO-B7brUvqbV3mJHdFHnTIa-f8vBzu30GNo35rn7MG5ElZBkA9IYE3BRJhKl4rY6KLisykvQaHzjpnC5O3TA7RoBfvD8G-Nso:1xEmed:tzoKdLQIt1RY6IjYxDOGuA15pM1YzFJz_3fy-zixQw0",
+    "expire_date": "2026-10-22T11:51:19.770Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kki4ohif9xt01e49jzqrdt58mapx5por",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCYAhlcuvcMBGZAqgaS0q6Md9cmXej2v_f-S4S4rTVsIy9hZnEWWpx-txTpkdsO-B7brUvqbV3mJHdFHnTIa-f8vBzu30GNo35rn7MG5ElZBkA9IYE3BRJhKl4rY6KLisykvQaHzjpnC5O3TA7RoBfvD8G-Nso:1xAWEV:Ce2FqiNi-jdc32vd-0DIIXKlh7Qp8RjOrx_DhvdksYw",
+    "expire_date": "2026-10-10T17:30:43.594Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "nza1mphmpl4vtz2h7wubkqvx96ix04mc",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCYAhlcuvcMBGZAqgaS0q6Md9cmXej2v_f-S4S4rTVsIy9hZnEWWpx-txTpkdsO-B7brUvqbV3mJHdFHnTIa-f8vBzu30GNo35rn7MG5ElZBkA9IYE3BRJhKl4rY6KLisykvQaHzjpnC5O3TA7RoBfvD8G-Nso:1wZzpm:tMoqG_NlTHsFrM6ylyeFuHUagz59bpziF-Wcwyigtnw",
+    "expire_date": "2026-07-01T23:38:14.769Z"
+  }
+},
+{
+  "model": "books.category",
+  "pk": 1,
+  "fields": {
+    "name": "Badiiy asarlar",
+    "slug": "badiiy"
+  }
+},
+{
+  "model": "books.category",
+  "pk": 2,
+  "fields": {
+    "name": "Biznes",
+    "slug": "biznes"
+  }
+},
+{
+  "model": "books.category",
+  "pk": 3,
+  "fields": {
+    "name": "Ilmiy",
+    "slug": "ilmiy"
+  }
+},
+{
+  "model": "books.category",
+  "pk": 4,
+  "fields": {
+    "name": "Tarixiy",
+    "slug": "tarixiy"
+  }
+},
+{
+  "model": "books.category",
+  "pk": 5,
+  "fields": {
+    "name": "Detektiv",
+    "slug": "detektiv"
+  }
+},
+{
+  "model": "books.category",
+  "pk": 6,
+  "fields": {
+    "name": "Bolalar adabiyoti",
+    "slug": "bolalar-adabiyoti"
+  }
+},
+{
+  "model": "books.category",
+  "pk": 7,
+  "fields": {
+    "name": "Jahon adabiyoti",
+    "slug": "jahon-adabiyoti"
+  }
+},
+{
+  "model": "books.category",
+  "pk": 8,
+  "fields": {
+    "name": "Shaxsiy rivojlanish",
+    "slug": "shaxsiy-rivojlanish"
+  }
+},
+{
+  "model": "books.category",
+  "pk": 9,
+  "fields": {
+    "name": "Moliya",
+    "slug": "moliya"
+  }
+},
+{
+  "model": "books.category",
+  "pk": 10,
+  "fields": {
+    "name": "Falsafa",
+    "slug": "falsafa"
+  }
+},
+{
+  "model": "books.category",
+  "pk": 11,
+  "fields": {
+    "name": "Psixologiya",
+    "slug": "psixologiya"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 1,
+  "fields": {
+    "category": 1,
+    "title": "Binafsha shu'lasi (2-qism)",
+    "author": "Usoma Muslim",
+    "price": "65000.00",
+    "rating": 5.0,
+    "description": "\"Binafsha shu'lasi\" bestseller dilologiyasining kutilgan ikkinchi qismida sirlar pardasi yanada kengroq ochiladi. Birinchi qismda boshlangan ruhiy ziddiyatlar, sevgi va fojia o'rtasidagi kurash endi o'zining kulminatsion nuqtasiga yetadi. Xaya o'z qismatidagi qorong'u haqiqatlarga yuzma-yuz kelar ekan, nafaqat o'z qalbini, balki atrofidagilarni ham zulmat girdobidan olib chiqish uchun hayot-mamot kurashiga kirishadi. Inson irodasi, kechirim, sadoqat va chin tuyg'ularning qudrati haqidagi ushbu asar sizni oxirgi sahifasigacha hayajonda ushlab turadi.",
+    "pages": 416,
+    "language": "O'zbek tili",
+    "year": 2024,
+    "content": "MUQADDIMA: SO'NMAS ZIYO\n\nZulmat hech qachon birdaniga chekinmaydi. U qalbning eng chuqur, eng himoyasiz burchaklarida panalab, insonning zaiflashishini, irodasi sinishini va umidsizlikka tushishini poylaydi. Birinchi qismda boshdan kechirilgan dahshatli sinovlar, ayriliq va qonli to'qnashuvlar faqat bir debocha edi. Haqiqiy bo'ron esa endi boshlanmoqda.\n\nQorong'ulik qanchalik quyuq va vahimali bo'lmasin, binafsha shu'laning mayingina yiltillashi ham eng qalin zulmat devorini parchalab o'tish qudratiga ega. Inson ruhining eng yuksak cho'qqisi — bu o'z qo'rquvini yengib, boshqalar najoti uchun o'zini qurbon qila olishidadir. Bu kitob — so'ngan umidlarning qayta tirilishi, o'tmish qasoskorlari va qalb pokligi o'rtasidagi so'nggi kurash qissasidir.\n\n\nBIRINCHI BOB: OSHKOR BO'LGAN QADIMIY SIRLAR\n\nTong sovuq, bo'g'uvchi tuman ichida ochildi. Qadimiy qasrning zax devorlariga urilayotgan shiddatli yomg'ir tomchilari sokin sukunatni parchalab yuborardi. Xaya ko'zlarini ochganida, butun vujudi qaqshab og'rirdi. Atrofdagi olam ilgari hech qachon ko'rmagan yangi, vahimali tuslarda jilvalanardi.\n\nU titroq qo'llari bilan ko'ksidagi qadimiy tumorga qaradi. Binafsha rangli billur tosh endi shunchaki jonsiz ziynat emas, balki tirik qalb kabi urib turardi. Uning ichidan taralayotgan mayin binafsha nur xona burchaklaridagi qora soyalarni chekintirib, xotiralarining uzuq-yuluq, qonli sahifalarini birma-bir tiklay boshladi. \n\nU bolaligidan beri eshitib kelgan afsonalar — shunchaki ertak emas, balki o'z naslining fojiali qismati ekanini endi anglab yetgan edi. Har bir avlod bu nurni saqlab qolish uchun eng qimmatli narsasidan kechgan. Endi navbat unga kelgan edi.\n\n— Uyg'ondingmi, Xaya? — eshik tirqishidan tanish, vazmin va chuqur ovoz yangradi.\n\n\nIKKINCHI BOB: SINIK SADOQAT VA YO'QOTISHLAR\n\nOstonada Isfandiyor ko'rindi. Uning qora plashidan yomg'ir suvlari tomchilab turar, yuzidagi yangi chandiqlar so'nggi tunda kechgan shafqatsiz jangdan darak berardi. Uning qop-qora nigohlarida cheksiz charchoq, ammo shu bilan birga qat'iy va qaytmas jasorat porlardi.\n\n— Biz orqaga qaytolmaymiz, — dedi Isfandiyor og'ir qadamlar bilan xonaga kirib, qilichini burchakka qo'yar ekan. — Qora vodiy darvozalari allaqachon ochilgan. Soyalar hukmdori sen tirik ekaningni biladi. Ular binafsha shu'lani yo'q qilish uchun butun bir qo'shinni oyoqqa turg'azdi.\n\nXaya asta o'rnidan turdi. Deraza ortidagi qorong'u o'rmonga boqarkan, o'zining ichki ovoziga quloq tutdi. U endi kechagi ojiza, himoyaga muhtoj qizaloq emasdi. O'tgan kunlar uni toblagan, har bir yo'qotish uning qalbini po'latdek mustahkam qilgan edi.\n\n— Men qochishdan charchadim, Isfandiyor, — dedi Xaya qat'iyat bilan. — Agar mening qismatim bu olov ichidan o'tish bo'lsa, men unga tik qarayman. Odamlarimiz begunoh qurbon bo'lishiga ortiq yo'l qo'ymayman.\n\n\nUCHINCHI BOB: QORA SOYALAR VODIYSI\n\nUlar yo'lga chiqqanlarida osmonni qora bulutlar butkul qoplagan edi. Qora vodiy — tirik jon qadam bosishga jur'at etolmaydigan, la'natlangan yer edi. Qadimiy daraxtlarning qotib qolgan shoxlari go'yo azob chekayotgan arvohlarning qo'llariga o'xshardi.\n\nHar bir qadam tashlanganda yer ostidan g'alati g'o'ng'illash eshitilar, havoda oltingugurt va ajal isi anqirdi. Isfandiyor qo'lidagi mash'alani oldinga tutib, Xayaning yo'lini to'sib borardi. To'satdan o'rmon ichidan dahshatli chinqiriq yangradi. Daraxtlar orasidan qizil ko'zli, qora sharpalar — zulmat lashkarlari yopirilib chiqa boshladi.\n\nIsfandiyor bir lahzada qilichini sug'urdi. Po'latning po'latga urilishi, havoni tilib o'tgan o'qlar va qichqiriqlar vodiyni titratdi. U bir o'zi o'nlab sharpalarga qarshi arslondek kurashardi, ammo dushman behisob edi. Bir sharpali tig' Isfandiyorning yelkasini tilib o'tdi, u tizzalab qoldi.\n\n— Qoch, Xaya! Qoch! — deb baqirdi u qon tupurib.\n\n\nTO'RTINCHI BOB: QALB CHO'G'I VA ICHKI UYG'ONISH\n\nXaya orqaga chekinmadi. Do'stining qonini ko'rib, uning ichida nimanadir portlab ketgandek bo'ldi. Qo'rquv, ikkilanish, ojizlik — barchasi bir lahzada kulga aylandi. U ko'kragidagi tumorni ikki qo'li bilan mahkam changalladi va ko'zlarini yumdi.\n\nU o'z qonidagi kuchni, ajdodlarining ming yillik faryodini va eng asosiysi — sevgining o'limdan ustun qudratini his qildi. U ko'zlarini ochganida, qorachiqlari quyuq binafsha rangda yonardi.\n\nUning vujudidan ko'kka ulkan yorug'lik ustuni otilib chiqdi. Bu shunchaki yorug'lik emas, balki qorong'ulikni kuydiruvchi muqaddas olov edi. Qora sharpalar bu nurga dosh berolmay, qiyqirgancha chang-to'zonga aylanib, havoda erib ketdi. Butun vodiy bir necha soniyaga kunduzgidek yorishib ketdi. Shamol to'xtadi. Tuman tarqaldi.\n\nXaya hansiragan holda Isfandiyorning yoniga yugurdi. Uning qo'llaridan taralayotgan mayin iliqlik do'stining yarasini asta tuzata boshladi. Ular bir-birlariga qaradilar — so'z kerak emasdi, eng og'ir sinov oldinda ekanini ikkisi ham bilardi.\n\n\nBESHINCHI BOB: ZULMAT BILAN SO'NGGI TO'QNASHUV\n\nVa nihoyat, ular Qora qal'aning qonli marmardan qurilgan taxt zaliga yetib keldilar. Bu yerda hamma narsa muzdek sovuq edi. Taxtda esa ming yillik zulmatning timsoli — Soyalar hukmdori o'tirardi. Uning nigohida nafrat va qora tubanlik aks etardi.\n\n— Sen yetib kelding, mening zaif naslim, — dedi hukmdor sovuq kulgi bilan. — O'sha nurni menga topshir, shunda dunyo sening oyog'ing ostida bo'ladi. Bo'lmasa, sen ham o'tmishdagi barcha ajdodlaring kabi yo'qlik qa'riga g'arq bo'lasan!\n\n— Dunyo boylik va qo'rquv bilan emas, mehr va haqiqat bilan yashaydi! — dedi Xaya ovozi qat'iy jaranglab.\n\nHukmdor qo'lidagi qora asoni ko'tardi va zalni larzaga keltiruvchi to'lqin yubordi. Ikki ulkan kuch — qora zulmat va binafsha nur to'qnashdi. Devorlar yorilib, shipdan ulkan toshlar qulay boshladi. Isfandiyor so'nggi kuchini to'plab, hukmdorning qora asosi tomon zarba berdi. Aso parchalangan lahzada Xaya butun borlig'idagi nurni bir nuqtaga jamladi va zulmat yuragiga yo'naltirdi.\n\nQal'a gumburlab qulab tushdi. Qora tuman ko'kka ko'tarilib, tonggi quyosh nurlarida erib ketdi. Ular xarobalar ustidan chiqib, quyosh chiqayotgan ufqqa qarab turarkan, binafsha shu'la endi tinch, sokin va abadiy tinchlik ramzi sifatida porlayotganini angladilar. Zulmat mag'lub bo'lgan, yangi hayot boshlangan edi.",
+    "cover_image": "book_covers/Image_binafsha_2_aXiftsK.jpg",
+    "file": "",
+    "is_weekly_top": true,
+    "is_trending": true,
+    "created_at": "2026-06-18T01:06:43.809Z"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 2,
+  "fields": {
+    "category": 6,
+    "title": "Odam bo'lish qiyin",
+    "author": "O'lmas Umarbekov",
+    "price": "45000.00",
+    "rating": 5.0,
+    "description": "\"Odam bo‘lish qiyin\" — atoqli o‘zbek yozuvchisi O‘lmas Umarbekovning inson ruhiyati, vijdon, burch va yoshlik xatolari haqidagi eng mashhur romanlaridan biridir. Asar markazida yosh yigit Abdullaning hayot yo‘li, uning Gulchehraga bo‘lgan sevgisi, xudbinligi hamda hayot sinovlari oldidagi ruhiy iztiroblari aks ettirilgan. Asar har bir insonni o‘z vijdoni oldida javob berishga va chinakam odamiylik fazilatlarini asrab qolishga chorlaydi.",
+    "pages": 320,
+    "language": "O'zbek tili",
+    "year": 2024,
+    "content": "MUQADDIMA\n\nInson tug'iladi. Unga ism qo'yadilar, beshikka soladilar, mehr berib ulg'aytiradilar. Ammo inson bo'lib tug'ilish boshqa-yu, hayot sinovlarida, nafs va vijdon to'qnashuvlarida Odam bo'lib qolish butkul boshqa narsa.\n\nDunyoda nima ko'p — orzu-havas ko'p. Yoshlik esa shunday shiddatli bir faslki, u o'z bag'rida nafrat bilan muhabbatni, sadoqat bilan xiyonatni birdek olib yurishi mumkin. Har bir qadam, har bir qaror insonning butun taqdirini hal qiladi. Gohida birgina xato, birgina nojo'ya qadam butun bir umrni pushaymonlik oloviga tashlaydi.\n\nBu qissa — shunchaki yoshlar muhabbati haqida emas. Bu qissa — odamiylik mezonlari, vijdon azobi, poklik va xudbinlik o'rtasidagi mangu kurash haqidagi og'ir, ammo saboqqa to'la hikoyadir.\n\n\nBIRINCHI BOB\n\nBahor tongi Toshkent ko'chalariga o'zgacha bir nafislik bag'ishlagan edi. Ariqlarda to'lib-toshgan zilol suvlar shoshilib oqar, yo'l chetidagi bodom va o'rik gullari havoga xushbo'y ifor taratardi. Abdulla shoshgancha velosipedini yetaklab, mahallaning tor ko'chasidan katta yo'l tomon chiqar ekan, qalbida bahoriy bir entikish tuyardi.\n\nU maktabni tugatib, endigina katta hayot ostonasida turgan paytlar edi. Uning ko'nglida dunyoni zabt etishdek buyuk orzular, yuksak niyatlar qaynardi. Shu payt ko'cha burilishida Gulchehra ko'rindi. Uning qo'lida kitoblar, yelkasiga mayin tushgan qora sochlari shabbodada tebranardi.\n\n— Assalomu alaykum, Abdulla aka, — dedi Gulchehra yuziga muloyim tabassum yoyib.\n\n— Vaalaykum assalom, Gulchehra! Maktabga shoshyapsanmi? — Abdullaning nigohida cheksiz bir samimiyat aks etardi.\n\n— Ha, bugun so'nggi imtihonimiz. Hayajondaman...\n\n— Qo'rqma, sen albatta a'lo topshirasan. Men bunga ishonaman.\n\nUlar bir-birlariga qarab jilmaydilar. Bu nigohlarda hali hech qanday g'ubor tegmagan, beg'ubor yoshlikning pok muhabbati porlab turardi. Ammo hayot oldinda ularni qanday to'siqlar va imtihonlar kutayotganini hali ikkisi ham bilmas edi.\n\n\nIKKINCHI BOB\n\nYillar o'tib, talabalik davri boshlandi. Shahar hayoti o'zining shovqin-suroni, rang-barang vasvasalari bilan Abdullaning atrofini o'rab oldi. Universitet dahlizlarida, yangi tanishlar davrasida Abdulla o'zini butkul boshqa odamdek his qila boshladi.\n\nUning atrofida boylikka, manmansirashga va yengil-yelpi hayotga o'rgangan ulfatlar paydo bo'ldi. Ayniqsa, kursdoshi Samadning xatti-harakatlari Abdullaga avvaliga g'alati tuyulgan bo'lsa-da, bora-bora unga taqlid qila boshladi.\n\n— Ey, Abdulla, — derdi Samad qahvaxonada sigareta tutatib. — Qishloqcha andishalaringni tashla. Hozir zamon boshqa. Kuchli bo'lishing, o'zingni ko'rsatishing kerak. Vijdon deysan, oriyat deysan... bular bilan qorin to'ymaydi!\n\nAbdullaning ichida nimanadir uzilgandek bo'ldi. Bir tomondan Gulchehraning ma'sum va sadoqatli ko'zlari, onasining qadoq qo'llari bilan tutqazgan duolari yodiga tushsa, ikkinchi tomondan hashamatli davralar, soxta ehtirom uni o'z domiga tortardi.\n\nU tobora Gulchehradan uzoqlashib, o'zining sun'iy olamiga g'arq bo'layotganini sezmay qoldi.\n\n\nUCHINCHI BOB\n\nKunlarning birida Gulchehra shaharga, Abdullaning huzuriga keldi. Uning ko'zlarida sog'inch va chuqur xavotir qorishib ketgan edi. Qishloqdan ataylab pishirib keltirilgan patirlar va mevalarni qo'lida ushlab, Abdullaning yotoqxonasi oldida kutib turardi.\n\nAbdulla esa xorijiy kiyimlarda, yangi oshnalari bilan xandon otib kirib keldi. Gulchehrani ko'rishi bilan uning yuzida shodlik emas, aksincha, oshnalari oldida qandaydir noqulaylik va uyat paydo bo'ldi.\n\n— Abdulla aka... — dedi Gulchehra ohista, ovozi titrab.\n\nAbdulla oshnalarining masxarali nigohlaridan qochish uchun Gulchehrani chetga tortdi.\n\n— Nega kelding bu yerga? Ogohlantirib kelsang bo'lmasmidi? Meni odamlar oldida nima ahvolga solyapsan?\n\nGulchehraning ko'zlaridan yosh qalqib chiqdi. U ko'z oldidagi yigit o'sha o'zi sevgan, bodom gullari ostida mehr bilan boqadigan sodda va mard Abdulla emasligini, uning o'rnida qalbini kibr va xudbinlik qoplagan begonani ko'rdi.\n\n— Men sizni sog'ingandim, xolos... Onangiz salom aytib, mana buni berib yuborgandilar, — dedi Gulchehra tugunchani yerga qo'yib.\n\nU ortiga o'girilib, ko'z yoshlarini yengiga artgancha ketib qoldi. Abdulla esa yerda qolgan tugunchaga qarab, vijdoni bir lahzaga uyg'ongandek bo'ldi, ammo o'z xudbinligini yengishga g'ururi yo'l qo'ymadi.\n\n\nTO'RTINCHI BOB\n\nVaqt o'tib, pushaymonlik fasli yetib keldi. Abdulla o'zi intilgan o'sha soxta do'stlar qiyin kunda undan yuz o'girganini ko'rdi. Universitetdagi muammolar, hayot zarbalari uning ko'zini ochib tashladi. \n\nU qanchalik tubanlikka qulaganini, o'zining eng qadrli insonlarini bir chaqaga sotganini endi tushunib yetdi. Yolg'izlik va vijdon azobi uning qalbini kemirardi.\n\nU qishloqqa qaytdi. Eski ariq bo'yi, o'sha bodom daraxtlari... ammo endi bahor emas, xazonrezgi kuz edi. Gulchehra esa endi uniki emasdi. Uning nigohida nafrat ham yo'q edi, faqat bepoyon achinish va sovuq begonalik bor edi.\n\nAbdulla ariq bo'yida tiz cho'kib, boshini changalladi. Dunyodagi eng qiyin ish — har qanday sharoitda ham Odam bo'lib qolish ekanini u juda kech, butun umrlik pushaymonlik evaziga anglab yetgan edi.",
+    "cover_image": "book_covers/Image_3.jpeg",
+    "file": "",
+    "is_weekly_top": false,
+    "is_trending": false,
+    "created_at": "2026-10-11T14:34:01.283Z"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 3,
+  "fields": {
+    "category": 11,
+    "title": "Ko'zlaringni haromdan saqla",
+    "author": "Merve O'zjan",
+    "price": "75000.00",
+    "rating": 5.0,
+    "description": "\"Ko‘zlaringni haromdan saqla\" — turk yozuvchisi Merve O‘zjanning mashhur \"Haromdan saqla\" turkumidagi ilk va eng ta’sirli romanidir. \r\n\r\nAsar markazida o‘z e’tiqodi, burchi va vijdoniga sodiq bo‘lgan yosh politsiyachi O‘mer hamda dabdabali, erka hayotga o‘rgangan Betulning to‘qnash kelgan taqdirlari turadi. Bir qarashda mutlaqo ikki xil dunyoqarashga ega bo‘lgan bu ikki yosh qalbning pok muhabbati, nafs va harom havaslarga qarshi kurashi, sabr va hayo sinovlari kitobxonda chuqur taassurot qoldiradi. \r\n\r\n\"Taqdir sabab emas, insonning ko‘nglida xohish borligi tufayli yuzaga keladi...\" degan hayotiy falsafa har bir insonni o‘z amallari, nigohlari va qalb pokligi haqida teran o‘ylashga undaydi.",
+    "pages": 592,
+    "language": "O'zbek tili",
+    "year": 2024,
+    "content": "--- 1-Bob: Taqdir chorrahasida ---\r\n\r\nShovqin-suronli ulkan shahar ko‘chalarida har bir odam o‘z tashvishi, o‘z maqsadi va orzulari sari shoshib borardi. Kuzning salqin shamoli ko‘cha bo‘ylab sarg‘aygan barglarni uchirar, asfalt yo‘llarda avtomobillarning uzluksiz chiroqlari lipillab o‘tardi. Markaziy politsiya bo‘limida navbatchilik qilayotgan yosh komissar O‘mer uchun bu kun ham odatdagidek og‘ir, mas’uliyatli va sinovlarga to‘la boshlandi.\r\n\r\nO‘mer o‘z xizmatini shunchaki quruq maosh yoki mansab uchun bajariladigan ish deb bilmasdi. Uning uchun politsiyachilik — adolatni qaror toptirish, or-nomus, burch va eng muhimi, Yaratgan oldidagi katta bir omonat edi. U doim xushmuomala, kamtarin, ammo xizmat burchiga kelganda metindek qat’iyatli bo‘lardi. Uning xulq-atvorida eng ko‘zga tashlanadigan fazilati — bu hayosi va nigohlarini begona haromlardan asray bilishida edi. Xizmatdoshlari uning bu jiddiyligini ba’zan tushunmas, ammo qalb tubida unga nisbatan cheksiz hurmat saqlashardi.\r\n\r\nShahar markazidagi hashamatli mavzelardan birida esa mutlaqo boshqacha bir hayot kechardi. Betul — nufuzli va badavlat oilaning erka qizi bo‘lib, dabdaba, hashamat va yuzaki xushomadlar qurshovida ulg‘aygan edi. Uning nazarida hayot faqat qimmatbaho brendlar, do‘stlar bilan o‘tadigan tungi ziyofatlar va cheksiz erkinlikdan iboratdek tuyulardi. O‘zining benuqson husni va boyligiga ishongan qiz atrofdagi barcha odamlar uning xohishlariga bo‘ysunishi kerak deb o‘ylardi.\r\n\r\nBiroq taqdir hech qachon insonning o‘zi chizgan rejalari bo‘yicha harakatlanmaydi. Bir kuni kechki payt Betul va uning do‘stlari o‘tirgan avtomobil xavfli burilishda katta yo‘l hodisasiga uchradi. Voqea joyiga zudlik bilan politsiya guruhi va tez tibbiy yordam mashinalari yetib keldi. Voqeani nazoratga olish va hujjatlarni rasmiylashtirish vazifasi aynan O‘merning zimmasiga tushgan edi.\r\n\r\nSirena chiroqlari ko‘k va qizil ranglarda miltillab turgan joyda Betul sarosima ichida yerga o‘tirib qolgan, qo‘llari qaltirardi. Yengil jarohat olgan bo‘lsa-da, hayotida ilk bor bunday qo‘rquv va o‘lim sharpasini his qilgan edi. Shunda uning qarshisiga baland bo‘yli, jiddiy qiyofali bir politsiyachi yaqinlashdi. \r\n\r\n— Yaxshimisiz, xonim? Jarohat olmadingizmi? — dedi O‘mer xotirjam va sokin ovozda. Ammo uning ko‘zlari qizning yuziga emas, bir oz chetga, odob bilan yerga qaratilgan edi.\r\n\r\nBetul bu kutilmagan munosabatdan esankirab qoldi. Unga hamma yigitlar mahtal bo‘lib qarashga odatlangan edi, ammo bu yigit unga qaramaslikka harakat qilayotgandek tuyuldi. Qizning qalbiga ilk bor g‘alati, noma’lum bir his o‘rmalab kirdi. Taqdir ularni xuddi shu chorrahada, butunlay boshqa-boshqa dunyolardan kelgan holda uchrashtirgan edi.\r\n\r\n--- 2-Bob: Nigohlar va qalb pokligi ---\r\n\r\nErtasi kuni hodisa bo‘yicha ko‘rsatma berish uchun Betul politsiya idorasiga chaqirildi. U bu safar odatdagidek o‘ziga haddan tashqari bino qo‘yib, qimmatbaho liboslarini kiyib bordi. U kechagi politsiyachini topishni, unga o‘z mavqei va go‘zalligini namoyish etishni xohlardi. Biroq O‘merning xonasiga kirganida, kutilgan manzarani ko‘rmadi.\r\n\r\nO‘mer hujjatlarni ko‘zdan kechirar, xonada o‘ziga xos tozalik va osoyishtalik hukm surardi. Betul kirib kelgach, O‘mer o‘rnidan turib joy ko‘rsatdi, ammo uning nigohlaridagi o‘sha samimiy hayo va chegaralar o‘zgarmagan edi. U savollarni aniq, qat’iy va faqat qonun doirasida berdi.\r\n\r\n— Nega menga qaramayapsiz? — deb yubordi Betul toqati toq bo‘lib. — Mendan biror narsangizni yashiryapsizmi yoki meni e’tiborga arzimaydi deb hisoblaysizmi?\r\n\r\nO‘mer qalamini qog‘oz ustiga qo‘ydi va chuqur nafas olib javob berdi:\r\n— Inson ko‘zi — uning qalb darvozasidir, xonim. Ko‘z nimaga qarasa, qalb o‘sha narsa bilan band bo‘ladi. Men o‘z qalbimni keraksiz va harom o‘ylardan saqlashga harakat qilaman. Sizga nisbatan hurmatsizlik qilganim yo‘q, aksincha, haqiqiy hurmat — insonning shaxsiyatiga qarash, uning tashqi jilosiga tikilmaslikdir.\r\n\r\nBu gaplar Betulning quloqlarida chaqmoqdek yangradi. U hech qachon bunday falsafani, bunday toza tushunchani eshitmagan edi. Uning atrofidagi erkaklar doim qizning tashqi ko‘rinishi, kiyinishi va husnini maqtab, uning ko‘ngliga yoqishga harakat qilishardi. Ammo bu yigit birinchi navbatda o‘z vijdoni va Yaratganning roziligi haqida qayg‘urayotgan edi.\r\n\r\nKunlar o‘tgan sari Betulning xayolidan O‘merning aytgan so‘zlari ketmasdi. U o‘zining hayoti, qilayotgan ishlari va atrofidagi odamlar haqida chuqur o‘ylay boshladi. O‘mer esa o‘zining burchini bajarar ekan, Betulning ichki dunyosidagi adashganlikni, ammo shu bilan birga tubsiz samimiyatga intilishini payqab ulgurgan edi.\r\n\r\n--- 3-Bob: Sabr va iroda sinovi ---\r\n\r\nHar qanday ma’naviy uyg‘onish inson uchun og‘riqli sinovlar bilan birga keladi. Betul asta-sekin eski do‘stlarining bema’ni yig‘inlaridan, maqsadsiz va behuda vaqt o‘tkazishlaridan uzoqlasha boshladi. Uning oilasi va yaqinlari bu o‘zgarishlarni g‘alati kutib olishdi. Unga nisbatan kesatiqlar, masxaralar va bosimlar kuchaydi.\r\n\r\n— Sen o‘zgarib qolding, Betul. Qachondan beri bunchalik dindor va odobli bo‘lib qolding? — deyishardi do‘stlari istehzo bilan.\r\n\r\nAmmo Betul ortga qaytishni istamasdi. U kitoblar o‘qiy boshladi, halol va harom tushunchalarini o‘rgandi, eng muhimi, qalbini poklashga intildi. O‘mer esa bu yo‘lda unga uzoqdan bo‘lsa-da, o‘zining to‘g‘ri maslahatlari, matonati va sabrli tutumi bilan yelkadosh bo‘ldi. U hech qachon Betulga tazyiq o‘tkazmadi, unga majburlab hech narsani uqtirmadi, balki shaxsiy ibrati orqali to‘g‘ri yo‘lni ko‘rsatdi.\r\n\r\nBiroq hayot sinovlari faqat oilaviy muhit bilan cheklanib qolmadi. O‘mer tergov qilayotgan jiddiy bir jinoiy to‘da politsiyachiga bosim o‘tkazish maqsadida Betulning oilasiga xavf sola boshladi. O‘mer uchun bu xizmat va vijdon o‘rtasidagi eng katta imtihonga aylandi. U yovuzlikka qarshi yolg‘iz kurashga kirishdi.\r\n\r\nO‘sha qorong‘u va xavfli kunlarda Betul ilk bor qo‘llarini duoga ochdi. U hayotida birinchi marta o‘z nafsi uchun emas, balki bir begunoh insonning, o‘zining qalbiga yorug‘lik olib kirgan O‘merning omonligi uchun Yaratganga ko‘z yoshlari bilan iltijo qildi. Sabr va iroda har ikki qalbni po‘latdek tobladi.\r\n\r\n--- 4-Bob: Haromdan saqlangan muhabbat ---\r\n\r\nXavf-xatarlar, qora bulutlar va barcha mashaqqatli kunlar nihoyat ortda qoldi. Adolat o‘z o‘rnini topdi, jinoyatchilar qonun oldida javob berishdi. Shahar yana o‘zining sokin va osoyishta maromiga qaytdi.\r\n\r\nShahar bog‘laridan birida, kuzning oltin tusli xazonlari orasida O‘mer va Betul uchrashishdi. Bu safar ular shunchaki politsiyachi va guvoh emas edilar. Ular bir-birlarining qalbini, dunyoqarashini va barcha sinovlarini ko‘rgan, his qilgan insonlar edilar.\r\n\r\nBetulning kiyinishi, yurish-turishi va nigohlarida endi avvalgi kibru havo yo‘q edi. Uning yuzida haqiqiy ayollik hayosi, qalbida esa mustahkam e’tiqod nur sochardi.\r\n\r\n— Bilasizmi, O‘mer, — dedi Betul sekingina shivirlab, — siz menga nafaqat hayotimni qanday yashash kerakligini, balki qalbimni nimadan asrash kerakligini o‘rgatdingiz.\r\n\r\nO‘mer unga samimiy tabassum bilan qaradi. Uning ko‘zlarida ham endi yashirib bo‘lmaydigan, ammo harom chegaralaridan yiroq, halol va pokiza bir mehr aks etib turardi:\r\n— Haqiqiy muhabbat — insonni haromga yetaklamaydigan, balki uni gunohlardan asrab, Yaratganga yaqinlashtiradigan muhabbatdir. Ko‘zini haromdan saqlagan insonning qalbiga Alloh eng go‘zal va pokiza sevgini joylaydi.\r\n\r\nUlar tushunib yetdilarki, bu dunyoda eng buyuk baxt — boylik yoki erkinlikda emas, balki o‘z qalbini, nigohlarini va ruhini haromdan asrab yashashda ekan. Shu tariqa ikki toza qalbning halol va ibratli yangi hayot yo‘li boshlandi.",
+    "cover_image": "book_covers/Image_4.jpeg",
+    "file": "",
+    "is_weekly_top": true,
+    "is_trending": true,
+    "created_at": "2026-10-11T17:21:28.293Z"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 5,
+  "fields": {
+    "category": 11,
+    "title": "Arosat",
+    "author": "Kadir Akel",
+    "price": "55000.00",
+    "rating": 5.0,
+    "description": "Mol-dunyo va kibr ketidan quvib, haqiqiy ma'noni yo'qotgan insonning dahshatli tushlar, vijdon azobi va arosatdagi qalbining tavba sari intilishi haqidagi chuqur psixologik roman.",
+    "pages": 220,
+    "language": "O'zbek tili",
+    "year": 2024,
+    "content": "MUQADDIMA\n\nKibr va boylik vasvasasi inson qalbini asta-sekin, sezdirmasdan o'z domiga tortadi. Barlos ham o'zining yoshligi va omadiga ishondi. U hayotning asl mohiyati nimaligini, har bir bosilgan qadam ortida hisob-kitob borligini unutgan edi. Dunyo unga abadiy va boqiydek tuyulardi.\n\nAmmo har qanday g'aflat uyqusi bir kun kelib tugaydi. Har bir inson o'zining vijdoni, o'zining qilgan amallari oldida yuzma-yuz keladigan bir on bor. O'sha on – arosat lahzasi, inson o'z qilmishlari va haqiqat o'rtasida muallaq qoladigan dahshatli tushlar onlaridir.\n\n\nBIRINCHI BOB: G'AFLAT VA KIBR\n\nKatta shaharning baland osmono'par binolari, hashamatli avtomobillar va ko'rinar-ko'rinmas soxta maqtovlar Barlosning ko'zini ko'r qilgan edi. U o'zidan kichiklarni mensimas, har bir narsani pul bilan o'lchashga o'rgangan edi. Do'stlari uning yonida boyligi borligi uchungina turishardi, ammo u buni chinakam ehtirom deb o'ylardi.\n\nKunlarning birida, qorong'u bir tunda u g'alati bir tush ko'rdi. Tushida u kimsasiz, qorong'u va cheksiz sahroda yakka o'zi qolgan, atrofini esa uning kibri va xiyonatidan tug'ilgan qora sharpalar o'rab olgan edi. U baqirar, ammo ovozi chiqmas, yordam so'rashga hech kim topilmasdi. O'shanda uning qalbida ilk bor vujudini titratgan dahshatli qo'rquv uyg'ondi.\n\n\nIKKINCHI BOB: VIJDON AZOBI\n\nUyg'onganida uning peshonasidan sovuq ter oqardi. Yuragi qinidan chiqqudek urardi. Bu oddiy tush emas, balki qalbining chuqurliklaridan ko'tarilgan faryod edi. Kun sayin bu tushlar uning tinchini o'g'irlay boshladi. Ko'zgu qarshisida turganida u o'zining emas, balki yovuz, ma'nosiz va arosatda qolgan bir begona insonning yuzini ko'rardi.\n\nU boylikdan, hashamatdan tasalli topishga urindi, ammo hech biri ko'nglidagi bo'shliqni to'ldirolmasdi. Bir paytlar o'zi xor qilgan, dilini og'ritgan insonlarning ma'sum ko'zlari birma-bir ko'z oldidan o'ta boshladi. Vijdon degan azob dunyodagi har qanday jismoniy og'riqdan ko'ra kuchliroq bo'lib, uning butun borlig'ini kuydira boshladi. Bu arosat girdobi edi.\n\n\nUCHINCHI BOB: QALB BURILISHI VA NAJOT ESHIGI\n\nTavba qilish – shunchaki so'z aytish emas, bu qalbning tub-tubidan kechadigan og'ir jarayon, iroda burilishidir.\n\nBarlos o'rnidan turganida ko'zidagi yoshlar hali qurimagan edi. Ammo uning qalbidagi og'ir tosh erib ketgandek, vujudida ilgari hech qachon his qilmagan yengillik paydo bo'ldi. U o'sha qadimiy yog'och eshikka yana bir bor qaradi. Hayratlanarlisi, eshikdagi qalin zanjirlar bo'shashgan, uning tirqishidan esa ichkariga mayin va iliq nur tarala boshlagan edi.\n\nNajot eshigi hech qachon yopilmagan edi. Uni insonning o'z gunohlari, kibri va g'aflati qulflab qo'ygan ekan. Barlos chuqur nafas oldi va eshik dastasini ushladi. Bu safar u hech qanday qo'rquvni sezmadi.\n\nEshik sekingina, sokin bir sado bilan ochildi. Uning ortida nurli, pokiza va to'g'ri yo'l – vijdon, adolat va chin tavba bilan boshlanadigan yangi bir hayot kutib turardi. U orqaga qaramasdan nur sari qadam tashladi. Chunki ko'ngil singan bo'lsa ham, umid so'ngan bo'lsa ham, Yaratganning marhamatidan umid uzish uchun hali kech emas edi.",
+    "cover_image": "book_covers/arosat_cover.jpg",
+    "file": "",
+    "is_weekly_top": false,
+    "is_trending": true,
+    "created_at": "2026-10-11T19:04:08.375Z"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 6,
+  "fields": {
+    "category": 8,
+    "title": "Seniki bo'lgan seniki topadi",
+    "author": "Go'kan Kinsun",
+    "price": "40000.00",
+    "rating": 5.0,
+    "description": "Har bir inson hayotida ba'zan kechikayotgandek, sevgida, baxtda yoki orzularida omadi chopmayotgandek his qiladi. Aslida esa bu dunyoda siz uchun bitilgan rizq ham, chinakam muhabbat ham sizdan aslo qochib qutulolmaydi. Mashhur psixolog va yozuvchi Go‘kan Kinsunning ushbu asari ko‘ngil xotirjamligi, qalb yaralarini davolash, kutish san'ati va taqdirga ishonch haqidagi iliq va taskin beruvchi risoladir. Agar nimadir sizniki bo‘lsa — qancha uzoqda bo‘lmasin, albatta sizni topadi.",
+    "pages": 192,
+    "language": "O'zbek tili",
+    "year": 2024,
+    "content": "MUQADDIMA: TAQDIRNING CHIN ISHONCHI\r\n\r\nHayot shunday qiziq bir yo'lki, biz ko'pincha ketganlarning ortidan ko'z yosh to'kamiz, kelmaganlarning intizorligida o'zimizni yeb bitiramiz. Ammo bir narsani unutasiz: bu olamda sizga atalgan hech narsa sizni aylanib o'tmaydi.\r\n\r\nQo'lingizdan ketgan narsaga achinmang — u hech qachon sizniki bo'lmagan. Qalbingizni ranjitganlarga gina qilmang — ular sizga faqat saboq berish uchun kelgan edilar. Ushbu satrlar yuragingizdagi og'riqlarga malham bo'lsin, chunki sizniki bo'lgan narsa bir kun kelib albatta sizni topadi.\r\n\r\n\r\nBIRINCHI BOB: QO'YIB YUBORISH SAN'ATI\r\n\r\nInsonning eng katta xatolaridan biri — unga azob berayotgan narsani mahkam tutib olishidir. Xuddi qizigan temirni qo'lda ushlab turgandek, qo'limiz kuyayotganini bilsak ham, uni tashlab yuborishdan qo'rqamiz.\r\n\r\nBilingki, ba'zan boy berish — bu yutqazish emas, balki najot topishdir. Ketishni istagan odamga yo'l bering. O'tmish yukini yelkangizdan uloqtiring. Qo'lingiz bo'shamas ekan, hayot sizga yangi, go'zalroq ne'matlarni berolmaydi.\r\n\r\n\r\nIKKINCHI BOB: O'ZINGNI SEVISH VA QADRLASH\r\n\r\nBirovning sevgisiga zor bo'lib yashashdan ko'ra og'irroq jazo yo'q. Sen o'zingni qadrlamasang, boshqalar seni qadrlashini kutma. O'z qadringni bilgan kuningdan boshlab, atrofingdagi arzon munosabatlar o'z-o'zidan yo'qola boshlaydi.\r\n\r\nErtalab ko'zguga qara va o'zingga tabassum qil. Sen bugungi kungacha ko'p qiyinchiliklarni yengib o'tding, ko'p dardlarni ichingga yutding. Sen chinakam hurmat va sevgiga loyiqsan. O'zingga bo'lgan hurmating — qalbingning eng mustahkam qalqonidir.\r\n\r\n\r\nUCHINCHI BOB: SABR VA KUTISH MAKTABI\r\n\r\nDunyodagi eng shirin mevalar eng uzoq pishadigan mevalardir. Biz esa hamma narsa bir zumda bo'lishini xohlaymiz: bugun ekib, ertaga hosil olmoqchi bo'lamiz. Taqdir esa o'z vaqtida so'zlaydi.\r\n\r\nSen intil, harakat qil, qalbingni toza tut, ammo natijani vaqtga qo'yib ber. Hali yetilmagan meva nordon bo'lganidek, vaqtidan oldin kelgan baxt ham bardavom bo'lmaydi. Sabr — bu shunchaki kutish emas, balki kutayotganda go'zal umid bilan yashashdir.\r\n\r\n\r\nTO'RTINCHI BOB: SENIKI BO'LGAN SENI TOPADI\r\n\r\nKunlarning birida, sen hech kutmagan paytda hayotingga shunday inson kirib keladiki, u sen ilgari boshdan kechirgan barcha alam va ko'z yoshlarning javobi bo'ladi. U seni o'zgartirishga urinmaydi, xatolaring bilan sevadigan, yoningda tog'dek turadigan inson bo'ladi.\r\n\r\nO'shanda sen nima uchun o'tgan eshiklar yopilganini, nima uchun avvalgi munosabatlar uzilganini tushunib yetasan. Chunki eng go'zal saodat faqat oxirigacha ishonganlarga nasib qiladi. Unutma: osmon yiroq bo'lsa ham, qismat yaqindir. Seniki bo'lgan — seni albatta topadi!",
+    "cover_image": "book_covers/Image_6.jpeg",
+    "file": "",
+    "is_weekly_top": false,
+    "is_trending": false,
+    "created_at": "2026-10-11T19:28:58.468Z"
+  }
+},
+{
+  "model": "books.review",
+  "pk": 1,
+  "fields": {
+    "book": 2,
+    "user_name": "rustamov",
+    "user_id": "2",
+    "rating": 5.0,
+    "comment": "5 yulduz bilan baholandi ⭐",
+    "created_at": "2026-10-11T15:06:38.456Z"
+  }
+},
+{
+  "model": "books.review",
+  "pk": 2,
+  "fields": {
+    "book": 5,
+    "user_name": "rustamov",
+    "user_id": "",
+    "rating": 5.0,
+    "comment": "5 yulduz bilan baholandi ⭐",
+    "created_at": "2026-10-11T19:42:26.734Z"
+  }
+},
+{
+  "model": "books.review",
+  "pk": 3,
+  "fields": {
+    "book": 1,
+    "user_name": "Kitobxon",
+    "user_id": "Kitobxon",
+    "rating": 5.0,
+    "comment": "5 yulduz bilan baholandi ⭐",
+    "created_at": "2026-10-12T10:49:12.815Z"
+  }
+},
+{
+  "model": "books.readingprogress",
+  "pk": 1,
+  "fields": {
+    "book": 1,
+    "user_id": "anonymous",
+    "chapter": "2-Bob: Kutubxona siri",
+    "chapter_index": 0,
+    "progress_percent": 0.0,
+    "updated_at": "2026-10-09T21:38:33.701Z"
+  }
+},
+{
+  "model": "books.readingprogress",
+  "pk": 2,
+  "fields": {
+    "book": 1,
+    "user_id": "rustamov",
+    "chapter": "MUQADDIMA: SO'NMAS ZIYO",
+    "chapter_index": 1,
+    "progress_percent": 17.0,
+    "updated_at": "2026-10-12T09:43:16.698Z"
+  }
+},
+{
+  "model": "books.readingprogress",
+  "pk": 3,
+  "fields": {
+    "book": 2,
+    "user_id": "rustamov",
+    "chapter": "BIRINCHI BOB",
+    "chapter_index": 1,
+    "progress_percent": 40.0,
+    "updated_at": "2026-10-11T15:59:38.911Z"
+  }
+},
+{
+  "model": "books.readingprogress",
+  "pk": 4,
+  "fields": {
+    "book": 5,
+    "user_id": "rustamov",
+    "chapter": "MUQADDIMA",
+    "chapter_index": 1,
+    "progress_percent": 25.0,
+    "updated_at": "2026-10-11T19:05:20.488Z"
+  }
+},
+{
+  "model": "books.readingprogress",
+  "pk": 5,
+  "fields": {
+    "book": 5,
+    "user_id": "Elshod",
+    "chapter": "MUQADDIMA",
+    "chapter_index": 1,
+    "progress_percent": 25.0,
+    "updated_at": "2026-10-11T19:06:34.202Z"
+  }
+},
+{
+  "model": "books.readingprogress",
+  "pk": 6,
+  "fields": {
+    "book": 3,
+    "user_id": "rustamov",
+    "chapter": "1-Bob: Taqdir chorrahasida",
+    "chapter_index": 1,
+    "progress_percent": 25.0,
+    "updated_at": "2026-10-12T10:19:59.517Z"
+  }
+}
+]
